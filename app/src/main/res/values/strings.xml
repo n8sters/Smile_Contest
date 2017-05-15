@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smile Contest</string>
+    <string name="main_text">Say Cheese!</string>
+    <string name="delete_success">Images was deleted!</string>
+    <string name="delete_failure">Image deletion failed</string>
+    <string name="saved_message">Image Saved at %1$s</string>
+    <string name="not_saved">Image not saved!</string>
+    <string name="error">Error finding image</string>
+    <string name="go">GO</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="imageview_description">The imageview that contains the winning picture</string>
+    <string name="no_faces_message">No Faces Detected</string>
+    <string name="description_text">Whoever smiles most gets the crown! Good luck!</string>
+
+</resources>
