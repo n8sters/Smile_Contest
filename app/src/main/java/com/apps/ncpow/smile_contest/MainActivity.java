@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_IMAGE_CAPTURE = 1;
     private static final int REQUEST_STORAGE_PERMISSION = 1;
 
-    private static final String FILE_PROVIDER_AUTHORITY = "com.example.ncpow.fileprovider";
+    // THIS FILEPATH IS SUPER IMPORTANT!
+    // MAKE SURE IT MATCHES YOUR PATH!
+    private static final String FILE_PROVIDER_AUTHORITY = "com.apps.ncpow.fileprovider";
 
     @BindView(R.id.image_view)
     ImageView mImageView;
@@ -160,6 +162,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Resample the saved image to fit the ImageView
         mResultsBitmap = BitmapUtils.resamplePic(this, mTempPhotoPath);
+
 
 
         // Detect the faces and overlay the winner icon over person with highest smile prob
